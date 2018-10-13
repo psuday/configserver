@@ -25,3 +25,11 @@ appointmentservice-prod.yml
 The desired environment is specified in the application.yml of the
 client application as the spring.profiles.active value.
 
+
+To run this:
+
+Clone the repository or download a zip archive to your local environment and then run 
+
+mvn spring-boot:run
+
+Should start up a local microservice at localhost:8888 and you are open for business.
