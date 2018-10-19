@@ -33,3 +33,10 @@ Clone the repository or download a zip archive to your local environment and the
 mvn spring-boot:run
 
 Should start up a local microservice at localhost:8888 and you are open for business.
+
+Or you can create an uber jar using the maven shade plugin and then run it using
+
+java -jar <uber jar name>.
+
+The port at which the microservice listens can be changed on the command line - but in reality we would run
+this on multiple containers so multiple instances can all listen at the same port , no problem.
